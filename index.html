@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        
+        <input type="text" id="my_search" placeholder="Search..." class="search" >
+        <button class="btn"><i class="fa fa-search"></i></button>
+        <ul class="previousSearches">
+            <!-- <li>"Delhi"</li>
+            <li>"Delhi"</li>
+            <li>"Delhi"</li> -->
+        </ul>
+    </header>
+    <main class="fade">
+        <section class="main-header">
+            <div class="section-left">
+                <p class="weather-city">Weather in Place</p>
+                <p class="todays-date">Today,31 Jan</p>
+                <div class="weather-details">
+
+                    <img class="weather-icon" src="http://openweathermap.org/img/wn/10d@4x.png" alt=""
+                        data-current-icon>
+                    <div class="weather-data">
+                        <div class="current-temp"><span data-current-temp>25&deg;</span>C</div>
+                        <div class="data-current-description">Thunderstorm</div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="section-right">
+                <div class="curr-info">
+                    <div class="label">High</div>
+                    <div><span data-current-high>27&deg;</span>C</div>
+                </div>
+                <div class="curr-info">
+                    <div class="label">Real Feel</div>
+                    <div><span data-current-real-feel>27&deg;</span>C</div>
+                </div>
+                <div class="curr-info">
+                    <div class="label">Pressure</div>
+                    <div><span data-current-pressure>1019</span>mb</div>
+                </div>
+                <div class="curr-info">
+                    <div class="label">Low</div>
+                    <div><span data-current-low>27&deg;</span>C</div>
+                </div>
+                <div class="curr-info">
+                    <div class="label">Humidity</div>
+                    <div><span data-current-humid>27</span>&percnt;</div>
+                </div>
+                <div class="curr-info">
+                    <div class="label">Wind</div>
+                    <div><span data-current-wind>27</span>m/sec</div>
+                </div>
+            </div>
+        </section>
+        <section class="main-footer">
+           <div class="forecast-day">
+            <p class="day">Today</p>
+            <img class="forecast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <div class="temp">
+                <div class="maxTemp">22&deg;</div>
+                <div class="minTemp">20&deg;</div>
+            </div>
+           </div>
+           <div class="forecast-day">
+            <p class="day">Today</p>
+            <img class="forecast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <div class="temp">
+                <div class="maxTemp">22&deg;</div>
+                <div class="minTemp">20&deg;</div>
+            </div>
+           </div>
+           <div class="forecast-day">
+            <p class="day">Today</p>
+            <img class="forecast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <div class="temp">
+                <div class="maxTemp">22&deg;</div>
+                <div class="minTemp">20&deg;</div>
+            </div>
+           </div>
+           <div class="forecast-day">
+            <p class="day">Today</p>
+            <img class="forecast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <div class="temp">
+                <div class="maxTemp">22&deg;</div>
+                <div class="minTemp">20&deg;</div>
+            </div>
+           </div>
+           <div class="forecast-day">
+            <p class="day">Today</p>
+            <img class="forecast-icon" src="http://openweathermap.org/img/wn/10d@2x.png" alt="">
+            <div class="temp">
+                <div class="maxTemp">22&deg;</div>
+                <div class="minTemp">20&deg;</div>
+            </div>
+           </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
